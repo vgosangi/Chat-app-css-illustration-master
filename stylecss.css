@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Rubik&display=swap');
+
+.colors{
+    color: hsl(276, 100%, 81%);
+    color: hsl(271, 15%, 43%);
+    color: hsl(276, 55%, 52%);
+    color: hsl(271, 15%, 43%);
+    color: hsl(206, 6%, 79%);
+    color: hsl(271, 36%, 24%);
+    color:  hsl(270, 7%, 64%);
+}   
+
+.bg{
+    background-color: white;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+
+}
+
+
+.bg-1{
+   background-image: linear-gradient(to bottom  , hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+   width: 31vw;
+   height: 100vh;
+   border-bottom-right-radius:  450px ;
+   border-bottom-left-radius: 500px;
+   margin-left: -100px;
+   margin-top: -90px;
+   position: relative;
+   object-fit: contain;
+ 
+}
+   
+.bg-2{
+   background-image: linear-gradient(to bottom  , hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+   width: 31vw;
+   height: 100vh;
+   border-top-right-radius:  450px ;
+   border-top-left-radius: 500px;
+   margin-right: -120px;
+   margin-top: 100px;
+   position: relative;
+   overflow: hidden;
+   object-fit: contain;
+   opacity:10%
+
+}
+   
+
+.mobile-box{
+    position:absolute;
+    top: 17%;
+    left: 20%;
+    width: 250px;   
+    height: 520px;
+    background-color:white;
+    border-radius: 20px;
+
+   
+    
+}
+.mobile-screen{
+    margin-top: 10px;
+    margin-left:10px;
+    width: 230px;
+    height: 500px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 15px;
+    
+
+    
+}
+.mobile-top-screen{
+    background-image: linear-gradient(to right  ,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    width:230px;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.mobile-top-screen-style{
+    background-color: white;
+    width:130px;
+    height: 29px;
+    border-radius: 15px;
+    margin-top: -10px;
+    
+}
+.avatar-image{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.icon{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+
+}
+
+.avatar-name{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-top: 6px;
+
+}
+.avatar-info{
+    font-family: 'Rubik', sans-serif;
+    font-size: 8px;
+    color: hsl(276, 100%, 81%);
+    margin-top: -6px;
+
+}
+
+.message-box{
+    width: 130px;
+    height: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-color:hsl(206, 6%, 79%) ;
+    margin: 10px;
+    
+
+    
+
+}
+.left-message{
+    font-family: 'Rubik', sans-serif;
+    font-size: 8px;
+    color: hsl(276, 55%, 52%);
+    padding: 7px;
+}   
+.dog-image{
+    width: 43px;
+    height: 43px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.message-box-right1{
+    width: 130px;
+    height: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-color:white ;
+    margin: 10px;
+    
+}
+.message-box-right2{
+    width: 80px;
+    height: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-color:white;
+    margin-right: 10px;
+    
+}
+.message-info-right{
+    font-family: 'Rubik', sans-serif;
+    font-size: 8px;
+    color: hsl(271, 15%, 43%);
+    padding: 7px;
+}
+.message-box3{
+    width: 130px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-color:hsl(206, 6%, 79%) ;
+    margin: 10px;
+}
+.message-box-fare{
+    width: 180px;
+    height: 36px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-image: linear-gradient(to right  ,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    margin: 10px;
+}
+.message-box-fare-info{
+    font-family: 'Rubik', sans-serif;
+    font-size: 8px;
+    color: white;
+    padding: 5px;
+}
+.message-box-fare-value{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 1px;
+    font-weight: 700;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:hsl(276, 100%, 81%); 
+    background-color: transparent;
+    opacity: 40%;
+    margin-top: 4px;
+
+}
+.reply-button{
+    width: 210px;
+    height: 33px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 10px;
+}
+.submit-button{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: hsl(271, 36%, 24%);
+}
+.booking-heading{
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    color: hsl(271, 36%, 24%);
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.booking-para{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: hsl(270, 7%, 64%);
+
+    
+}
+
+.title-box{
+    position:absolute;
+    top: 40%;
+    left: 45%;
+    width: 450px;   
+    height: 200px;
+    background-color:transparent;
+    
+}
